@@ -16,7 +16,6 @@ namespace TamasBarabas_Checkout.Controllers
             this.paymentGateway = paymentGateway;
         }
 
-        // GET api/values/5
         [HttpGet("{paymentId}")]
         public async Task<IActionResult> Get(Guid paymentId)
         {
@@ -28,7 +27,6 @@ namespace TamasBarabas_Checkout.Controllers
             return Ok(payment);
         }
 
-        // POST api/values
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] PaymentDTO dto)
         {
