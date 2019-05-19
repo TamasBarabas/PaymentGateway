@@ -26,7 +26,7 @@
 - Amount (In Cents)
   - Not Empty integer
 
-- Cvv)
+- Cvv
   - Not Empty
   - 3 characters
 
