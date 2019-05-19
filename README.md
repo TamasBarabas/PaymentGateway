@@ -2,6 +2,7 @@
 
 There is a validator in place, this is the format of a valid input:
 
+```
 {
   "cardNumber": "4716286534933447",
   "expiryMonth": 10,
@@ -10,3 +11,4 @@ There is a validator in place, this is the format of a valid input:
   "currency": "GBP",
   "cvv": 123
 }
+```
